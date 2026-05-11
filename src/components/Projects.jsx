@@ -38,7 +38,7 @@ const ProjectPreview = ({ title }) => (
           <div className="w-2.5 h-2.5 rounded-full bg-green-500/80" />
         </div>
         <div className="flex-1 mx-3 h-4 bg-slate-800/80 rounded-full flex items-center px-3">
-          <span className="font-rajdhani text-[9px] text-slate-600">https://putra-portfolio.vercel.app</span>
+          <span className="font-rajdhani text-[9px] text-slate-600">https://porto-space-theme.vercel.app</span>
         </div>
       </div>
       {/* Content area */}
@@ -160,7 +160,7 @@ const ProjectCard = ({ project, index }) => (
           Live Demo
         </motion.a>
         <motion.a
-          href={project.sourceCode}
+          href="https://github.com/PutraTrianata/portoSpaceTheme.git"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.04, y: -1 }}
